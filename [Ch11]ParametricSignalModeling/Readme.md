@@ -1,4 +1,4 @@
-# [Ch11. Parametric Signal Model  (a.k.a. AR Model)] Better Frequency Resolution with smaller points when Estimating Frequency of Sinusoidal
+# [Advanced] Parametric Signal Modeling: Better Frequency Resolution with smaller points when Estimating Frequency of Sinusoidal
 
 When it comes to estimating the main frequency of sinusoidal like signals with **finite length**, the most intuitive method might be observing the largest component in the DFT/DTFT. Nonetheless, the resolution of DFT is limited by windowing effect. If a known structure of the signals is given, these method are not the best way to estimate the frequency.
 
