@@ -15,15 +15,15 @@ The concept beyond conventional DSP class are included here. Take up these chall
 
 ## Outline
 ### basic
-- [Time Invariance System](.\\\[Ch2\]DiscreteTimeSignalAndSystem\[Basic\]TimeInvariance)
-- [Test Signals Generation](.\\\[Ch2\]DiscreteTimeSignalAndSystem\[Basic\]TestSignalsGeneration)
-- [Phase Of Basic Signals](.\\\[Ch2\]DiscreteTimeSignalAndSystem\[Basic\]MagPhaseOfSignal)  
+- [Time Invariance System](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
+- [Test Signals Generation](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
+- [Phase Of Basic Signals](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
 
 ### Middle
-- [WindowEffect](.\\\[Ch7]FilterDesignTechniques\\\[Middle\]WindowEffect)  
+- [WindowEffect](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
 
 ### Advanced
-- [Parametric Model Spectrum Analysis](.\\\[Ch11\]ParametricSignalModeling\\\[Advanced\]SpectrumAnalysis)
+- [Parametric Model Spectrum Analysis](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
 
 ## Recommended Book List and Reference
 
