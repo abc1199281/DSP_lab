@@ -1,4 +1,4 @@
-# [Basic] Use Matlab "Filter" to filter a signal.
+# [Basic] Filter a signal with IIR filter in matlab.
 
 This experiment provide an example of filtering a signal for any LTI Filters (including both **IIR** & FIR). Please run all the .m files here.  
 
