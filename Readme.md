@@ -13,8 +13,9 @@ If you have learned several concepts of DSP, but sometimes you may be confused b
 - [Advanced] :  
 The concept beyond conventional DSP class are included here. Take up these challanges.
 
-## Outline
-### basic
+## Outline  
+
+### Basic
 - [Time Invariance System](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
 - [Test Signals Generation](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
 - [Phase Of Basic Signals](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
