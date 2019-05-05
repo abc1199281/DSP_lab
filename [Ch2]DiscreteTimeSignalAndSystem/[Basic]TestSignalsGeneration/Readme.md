@@ -9,7 +9,7 @@ x_step = (t>=n0);
 
 % impulse signal
 x_imp = (t==n0);
-~~~~
-
-
+~~~~  
+  
+  
 ![Fig.1](./1.PNG)
