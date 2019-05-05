@@ -21,10 +21,10 @@ The concept beyond conventional DSP class are included here. Take up these chall
 - [Phase Of Basic Signals](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
 
 ### Middle
-- [WindowEffect](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
+- [WindowEffect: Why is it a bad idea to filter by zeroing out FFT bins?](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
 
 ### Advanced
-- [Parametric Model Spectrum Analysis](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
+- [Parametric Signal Modeling: Spectrum Analysis](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
 
 ## Recommended Book List and Reference
 
