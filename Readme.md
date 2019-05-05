@@ -5,7 +5,7 @@ In this repository, some DSP experiments are provided to **bridge the theory and
 
 To link the experiment to theory, the layouts of forders follows the outline of [1]. Besides, the experiments which are not covered in the book are located in the folder **other**.
 
-There are several level for you to explore.
+There are several levels for you to explore.
 - [Basic] :  
 If you're beginner, these experiments are designed for you. It won't be hard. Just relax and give it a try.
 - [Middle] :  
@@ -22,7 +22,7 @@ The concept beyond conventional DSP class are included here. Take up these chall
 - [Filter a signal with IIR Filter](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh5%5DTransformAnalysisOfLTISystem/Filter)  
 
 ### Middle
-- [WindowEffect: Why is it a bad idea to filter by zeroing out FFT bins?](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
+- [Window Effect: Why is it a bad idea to filter by zeroing out FFT bins?](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
 
 ### Advanced
 - [Parametric Signal Modeling: Spectrum Analysis](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
