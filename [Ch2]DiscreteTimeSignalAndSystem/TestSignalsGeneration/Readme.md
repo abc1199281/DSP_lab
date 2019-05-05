@@ -1,7 +1,6 @@
 # [Basic] Test signal generation
 
-Example of impulse signal and step signal generation. \
-Example of Step Signal Generation. \
+Example of impulse signal and step signal generation.
 
 **Note that the following usage is recommended**
 ~~~~
