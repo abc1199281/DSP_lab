@@ -18,8 +18,10 @@ The concept beyond conventional DSP class are included here. Take up these chall
 - [Time Invariance System](.\[Ch2]DiscreteTimeSignalAndSystem\[Basic]TimeInvariance)
 - [Test Signals Generation](.\[Ch2]DiscreteTimeSignalAndSystem\[Basic]TestSignalsGeneration)
 - [Phase Of Basic Signals](.\[Ch2]DiscreteTimeSignalAndSystem\[Basic]MagPhaseOfSignal)  
+
 ### Middle
 - [WindowEffect](.\[Ch7]FilterDesignTechniques\[Middle]WindowEffect)  
+
 ### Advanced
 - [Parametric Model Spectrum Analysis](.\[Ch11]ParametricSignalModeling\[Advanced]SpectrumAnalysis)
 
