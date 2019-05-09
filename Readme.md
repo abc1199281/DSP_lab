@@ -16,8 +16,8 @@ The concept beyond conventional DSP classes are included here. Take up these cha
 ## Outline  
 
 ### Basic
-- [Ch2:Time Invariance System](/%5Bh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
-- [Ch2:Test Signals Generation](/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
+- [Ch2:Time Invariance System](./%5Bh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
+- [Ch2:Test Signals Generation](%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
 - [Ch2:Phase Of Basic Signals](/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
 - [Ch5:Filter a signal with IIR Filter](/%5BCh5%5DTransformAnalysisOfLTISystem/Filter)  
 
