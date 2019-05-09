@@ -22,3 +22,5 @@ Professor Oppenheim provided an example in 11.5.3. He tried to estimate the freq
 Here I tried to provide a potential matlab code to generate Fig. 11.16 in the DSP Fig.1. Please note that conventional methods like DFT or PSD cannot distinguish the two components. Neither does the Autocorrelation Method due to the windowing effect. (The main lobe of window is 0.04pi(rad/s) but the frequency difference of the two sinusoids is 0.02pi (rad/s).) **Only Covariance Method can separate the two components in this example.**
 
 ![Fig.1](./1.PNG).
+
+Date: 2019/04/28

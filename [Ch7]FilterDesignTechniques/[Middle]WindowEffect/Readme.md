@@ -19,3 +19,5 @@ The results in fact comes from the windowing effect. If you want to entirely und
 So, with the help of denser spectrum in Fig.2, we can see through the mask of ideal(fake) Band pass filter.
 
 [1] Alan V. Oppenheim and Ronald W. Schafer. 2009. Discrete-Time Signal Processing (3rd ed.). Prentice Hall Press, Upper Saddle River, NJ, USA.
+
+Date: 2019/04/23
