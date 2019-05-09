@@ -7,25 +7,25 @@ To link the experiment to theory, the layouts of forders follows the outline of 
 
 There are several levels for you to explore.
 - [Basic] :  
-If you're beginner, these experiments are designed for you. It won't be hard. Just relax and give it a try.
+If you're a beginner, these experiments are designed for you. It won't be hard. Just relax and give it a try.
 - [Middle] :  
-If you have learned several concepts of DSP, but sometimes you may be confused by several phenomenon, this class is designed for you. Some experiment in this level are started with a confusing question.
+If you have learned several concepts from DSP, but sometimes you may be confused by several phenomenon, this class is designed for you. Some experiment in this level are started with a confusing question.
 - [Advanced] :  
-The concept beyond conventional DSP class are included here. Take up these challanges.
+The concept beyond conventional DSP classes are included here. Take up these challanges.
 
 ## Outline  
 
 ### Basic
-- [Time Invariance System](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/master/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
-- [Test Signals Generation](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/master/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
-- [Phase Of Basic Signals](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/master/%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
-- [Filter a signal with IIR Filter](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/master/%5BCh5%5DTransformAnalysisOfLTISystem/Filter)  
+- [Ch2:Time Invariance System](%5Bh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
+- [Ch2:Test Signals Generation](%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
+- [Ch2:Phase Of Basic Signals](%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
+- [Ch5:Filter a signal with IIR Filter](%5BCh5%5DTransformAnalysisOfLTISystem/Filter)  
 
 ### Middle
-- [Window Effect: Why is it a bad idea to filter by zeroing out FFT bins?](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
+- [Ch10:Window Effect: Why is it a bad idea to filter by zeroing out FFT bins?](%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
 
 ### Advanced
-- [Parametric Signal Modeling: Spectrum Analysis](http://140.113.150.98:8081/abc1199281/DSP_lab/tree/Dev/%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
+- [Ch11:Parametric Signal Modeling: Spectrum Analysis](%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
 
 ## Recommended Book List and Reference
 
