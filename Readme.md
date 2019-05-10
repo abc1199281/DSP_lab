@@ -13,19 +13,25 @@ If you have learned several concepts from DSP, but sometimes you may be confused
 - [Advanced] :  
 The concept beyond conventional DSP classes are included here. Take up these challanges.
 
+
 ## Outline  
 
 ### Basic
 - [Ch2:Time Invariance System (19/05/05)](%5Bh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTimeInvariance)
 - [Ch2:Test Signals Generation (19/05/05)](%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DTestSignalsGeneration)
 - [Ch2:Phase Of Basic Signals (19/05/05)](%5BCh2%5DDiscreteTimeSignalAndSystem/%5BBasic%5DMagPhaseOfSignal)  
-- [Ch5:Filter a signal with IIR Filter (19/05/05)](%5BCh5%5DTransformAnalysisOfLTISystem/Filter)  
+- [Ch5:Filter a signal with IIR Filter (19/05/05)](%5BCh5%5DTransformAnalysisOfLTISystem/%5BBasic%5DUseFilter)  
+- [Ch5:Basic Filter Visualization (19/05/10)](%5Bh5%5DTransformAnalysisOfLTISystem\%5BBasic%5DFilterVisualization)
 
 ### Middle
 - [Ch10:Window Effect: Why is it a bad idea to filter by zeroing out FFT bins? (19/04/23)](%5BCh7%5DFilterDesignTechniques/%5BMiddle%5DWindowEffect)  
 
 ### Advanced
 - [Ch11:Parametric Signal Modeling: Spectrum Analysis (19/04/28)](%5BCh11%5DParametricSignalModeling/%5BAdvanced%5DSpectrumAnalysis)
+
+##Contribution Welcom
+We welcome contributions to this repo in many forms, and there’s always plenty to do! 
+If you have any idea about this repo, just send your precious sketch/recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
 
 ## Recommended Book List and Reference
 
