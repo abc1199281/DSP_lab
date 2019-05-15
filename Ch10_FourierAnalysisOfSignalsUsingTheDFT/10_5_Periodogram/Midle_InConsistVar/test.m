@@ -1,3 +1,6 @@
+% Please Note that here use the variance of one realization only.
+% This method is only suite for white noise simulation.
+% For General case, realizations and samples are required.
 
 N1 = 512;
 N2 = 1024;
