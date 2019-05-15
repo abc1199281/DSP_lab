@@ -12,6 +12,6 @@ Consequently, DFT Square is not a good PSD Estimation.
 
 ![Fig.1](./1.PNG)
 
-Reference: DSP 10.5
+Reference: DSP 10.5  
 Author: Po-Wei Huang  
 Date: 2019/05/16  
