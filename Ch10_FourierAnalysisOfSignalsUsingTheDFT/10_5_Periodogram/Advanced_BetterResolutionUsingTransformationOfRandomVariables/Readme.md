@@ -1,4 +1,3 @@
-
 # [Advanced] Better Resolution Using Transformation of the Random Variables
 
 If the sequence is short (N is small), we cannot resolves frequencies being closed together. And, we have at hand only one realization.  
