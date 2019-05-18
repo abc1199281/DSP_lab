@@ -9,9 +9,9 @@ There are several levels for you to explore.
 - [Basic] :  
 If you're a beginner, these experiments are designed for you. It won't be hard. Just relax and give it a try.
 - [Middle] :  
-If you have learned several concepts from DSP, but sometimes you may be confused by several phenomenon, this class is designed for you. Some experiment in this level are started with a confusing question.
+If you have learned several concepts from DSP, but sometimes you may be confused by several phenomenon, this class is designed for you. Some experiments in this level are started with a confusing question.
 - [Advanced] :  
-The concept beyond conventional DSP classes are included here. Take up these challanges.
+The concepts beyond conventional DSP classes are included here. Take up these challanges.
 
 
 ## Outline  
