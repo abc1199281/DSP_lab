@@ -22,7 +22,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch2:Phase Of Basic Signals (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_MagPhaseOfSignal)  
 - [Ch5:Filter a signal with IIR Filter (19/05/05)](/Ch5_TransformAnalysisOfLTISystem/Basic_UseFilter)  
 - [Ch5:Basic Filter Visualization (19/05/10)](/Ch5_TransformAnalysisOfLTISystem/Basic_FilterVisualization)
-- [Ch10:Basic Filter Visualization (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
+- [Ch10:What is the definition of asymptotically biased. (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
 
 ### Middle
 - [Ch7:Why is it a bad idea to filter by zeroing out FFT bins? Window Effect(19/04/23)](/Ch7_FilterDesignTechniques/Middle_WindowEffect) 
