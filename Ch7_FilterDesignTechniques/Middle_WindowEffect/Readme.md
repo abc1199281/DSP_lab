@@ -1,4 +1,7 @@
-# [Middle] Why is it a bad idea to filter by zeroing out FFT bins?
+# [Middle] Why is it a bad idea to filter by zeroing out FFT bins?  
+  
+**Main Scope: Chapter 7.5.0-7.5.2, Chapter 10.1-3**  
+  
 
 The complexity of DFT/IDFT using FFT/IFFT is only n*log2n whereas the complexity of convolution is n square. Then, why do we need to learn so many methods to design a filter? Why is it a bad idea to filter by zeroing out FFT bins? This question might be the most confusing one when learning DSP.
 
