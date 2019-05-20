@@ -1,5 +1,7 @@
-# [Advanced] Parametric Signal Modeling: Better Frequency Resolution with smaller points when Estimating Frequency of Sinusoidal
-
+# [Advanced] Parametric Signal Modeling: Better Frequency Resolution with smaller points when Estimating Frequency of Sinusoidal  
+  
+**Main Scope: Chapter 11.1-3,11.5.3**  
+  
 When it comes to estimating the main frequency of sinusoidal like signals with **finite length**, the most intuitive method might be observing the largest component in the DFT/DTFT. Nonetheless, the resolution of DFT is limited by windowing effect. If a known structure of the signals is given, these method are not the best way to estimate the frequency.
 
    With the known structure of the signals, Professor Oppenheim introduced an alternative way to estimate frequency,**ParametricSignal Modeling (a.k.a. Autoregressive model, AR Model)**[1]. To apply this method, a structure of all-pole linear system, H(z), should be predefined. This all-pole system tries to represent the signal with relative small set of parameters (or coefficients). Then, we estimate the coefficients of the system with observed signals. Last, the DTFT of the system can be regarded as the power spectrum density (PSD) of the observed signals.

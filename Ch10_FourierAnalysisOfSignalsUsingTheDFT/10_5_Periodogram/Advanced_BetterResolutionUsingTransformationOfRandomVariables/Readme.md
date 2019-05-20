@@ -1,5 +1,8 @@
 # [Advanced] Better Resolution Using Transformation of the Random Variables
-
+  
+**Main Scope: beyond the Bible**  
+**Relative Scope: Chapter 10.1-3,5-6**  
+  
 If the sequence is short (N is small), we cannot resolves frequencies being closed together. And, we have at hand only one realization.  
 One way to solve it is to create a pseudo-sequence from the data in hand by linear transformation of the RVs. Next, overlapping (by about 25%) these two series, we can process the new series with longer (pseudo) data. This method is based on the linear transformation of RVs.
 

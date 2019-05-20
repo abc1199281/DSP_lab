@@ -1,5 +1,7 @@
-# [Middle] Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation.
+# [Middle] Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation.  
 
+**Main Scope: Chapter 10.5.1-4**  
+  
 When taking the random properties into considerationm, there are two basic requirements, **asymptotically unbiased**, and **consistent**.  
 The definition of **asymptotically unbiased** is discussed in [another lab](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased).
 The definition of **consistent** is shown as follow. The error between estimated var and real var approches to zero along with the increasing of N.  
