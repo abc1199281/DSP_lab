@@ -13,7 +13,7 @@ Length = 512;
 n=1:Length;
 
 %% Different kinds of signal.
-s = 2*1.001.^n.*sin(0.2*pi*n);
+s = 2*0.99.^n.*sin(0.2*pi*n);
 % s = sin(0.1*pi*n);
 
 %% Different kinds of noise.
