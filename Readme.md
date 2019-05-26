@@ -32,6 +32,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch10:Better Resolution Using Transformation of the Random Variables (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Advanced_BetterResolutionUsingTransformationOfRandomVariables)
 - [Ch11:Parametric Signal Modeling: Spectrum Analysis (19/04/28)](/Ch11_ParametricSignalModeling/Advanced_SpectrumAnalysis)
 - [Ch13:How to De-convolution? Cepstrum Using DFT For Multipath Model(19/05/18)](/Ch13_CepstrumAnalysisAndHomomorphicDeconvolution/13_9_ComplexCepstrumForASimpleMultipathModel/Advanced_ComputeCepstrumUsingDFTForMultipathModel)
+- [ADSP: MSE (Adaptive) Filters (19/05/18)](/Others/LMS)
 
 ## Contribution Welcome
 We welcome contributions to this repo in many forms, and there’s always plenty to do!  
