@@ -35,9 +35,9 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch13:How to De-convolution? Cepstrum Using DFT For Multipath Model(19/05/18)](/Ch13_CepstrumAnalysisAndHomomorphicDeconvolution/13_9_ComplexCepstrumForASimpleMultipathModel/Advanced_ComputeCepstrumUsingDFTForMultipathModel)
 - [ADSP: MSE (Adaptive) Filters (19/05/27)](/Others/LMS)
 
-## Contribution Welcome
-We welcome contributions to this repo in many forms, and there’s always plenty to do!  
-If you have any idea about this repo, just send your precious sketch/recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
+## Recommendation Welcome
+This is my side project to verify some DSP Theorem. Recommendation to this repo is very wellcome!  
+If you have any idea about this repo, just send your precious recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
 
 ## Recommended Book List and Reference
 
