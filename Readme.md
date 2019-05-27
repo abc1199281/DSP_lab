@@ -25,6 +25,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch10:What is the definition of asymptotically biased. (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
 
 ### Middle
+- [Ch6:What's the code of **"Filter"** in Matlab? Direction Form Filters](/Ch6_StructureForDiscreteTimeSystems/Middle_DirectFormFilters)  
 - [Ch7:Why is it a bad idea to filter by zeroing out FFT bins? Window Effect(19/04/23)](/Ch7_FilterDesignTechniques/Middle_WindowEffect) 
 - [Ch10:Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation(19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Midle_InConsistVar) 
 
@@ -32,11 +33,11 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch10:Better Resolution Using Transformation of the Random Variables (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Advanced_BetterResolutionUsingTransformationOfRandomVariables)
 - [Ch11:Parametric Signal Modeling: Spectrum Analysis (19/04/28)](/Ch11_ParametricSignalModeling/Advanced_SpectrumAnalysis)
 - [Ch13:How to De-convolution? Cepstrum Using DFT For Multipath Model(19/05/18)](/Ch13_CepstrumAnalysisAndHomomorphicDeconvolution/13_9_ComplexCepstrumForASimpleMultipathModel/Advanced_ComputeCepstrumUsingDFTForMultipathModel)
-- [ADSP: MSE (Adaptive) Filters (19/05/18)](/Others/LMS)
+- [ADSP: MSE (Adaptive) Filters (19/05/27)](/Others/LMS)
 
-## Contribution Welcome
-We welcome contributions to this repo in many forms, and there’s always plenty to do!  
-If you have any idea about this repo, just send your precious sketch/recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
+## Recommendation Welcome
+This is my side project to verify some DSP Theorem. Recommendation to this repo is very wellcome!  
+If you have any idea about this repo, just send your precious recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
 
 ## Recommended Book List and Reference
 

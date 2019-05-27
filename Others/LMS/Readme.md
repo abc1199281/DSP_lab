@@ -35,9 +35,11 @@ The corresponding code can be found at /LMS/TestBasicNoiseCancellation.m.  The r
   
 ![Fig.1](./1.PNG).  
   
-**Note:** There are some background knowledge about these filters. I cannot explain them all here. Some useful articles are listed as reference. **However, I think my code is concise and self-explainable.  You can try to run the codes first.**  
+**Note:** There are some background knowledge about these filters. I cannot explain them all here. Some useful articles are listed as reference. However, I think my code is concise and self-explainable.  You can try to run the codes first.  
 [1] [Overview of Adaptive Filters and Applications](https://www.mathworks.com/help/dsp/ug/overview-of-adaptive-filters-and-applications.html)  
 [2] [Different LMS Filters](https://www.mathworks.com/help/dsp/ug/lms-adaptive-filters.html#brdo1gr)  
+  
+Ps. Part of the code follow this book [Understanding Digital Signal Processing with MATLAB and Solutions](https://www.mathworks.com/academia/books/understanding-digital-signal-processing-with-matlab-and-solutions-poularikas.html).  
   
 Author: Po-Wei Huang  
 Date: 2019/05/27  
