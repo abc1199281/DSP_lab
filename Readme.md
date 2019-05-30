@@ -25,7 +25,8 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch10:What is the definition of asymptotically biased. (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
 
 ### Middle
-- [Ch6:What's the code of **"Filter"** in Matlab? Direction Form Filters](/Ch6_StructureForDiscreteTimeSystems/Middle_DirectFormFilters)  
+- [Ch5:What's the unit of Group Delay? Effect of Group Delay and Attenuation (19/05/31)](/Ch5_TransformAnalysisOfLTISystem/Middle_EffectOfGroupDelayAndAttenuation)  
+- [Ch6:What's the code of **"Filter"** in Matlab? Direction Form Filters (19/05/26)](/Ch6_StructureForDiscreteTimeSystems/Middle_DirectFormFilters)  
 - [Ch7:Why is it a bad idea to filter by zeroing out FFT bins? Window Effect(19/04/23)](/Ch7_FilterDesignTechniques/Middle_WindowEffect) 
 - [Ch10:Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation(19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Midle_InConsistVar) 
 
