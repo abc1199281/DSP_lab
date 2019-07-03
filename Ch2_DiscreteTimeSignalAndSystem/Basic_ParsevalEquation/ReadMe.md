@@ -3,10 +3,10 @@
      
    Parseval Theorem is very famous, easy, and useful. The theorem tell us that the power (or energy) observed in time domain always equals the power (or energy) represented in frequency domain. The continuous form is shown as follow
    ```math
-   \int_{ - \infty}^{\infty} |x(t)|^{2} dt= \int_{ - \infty}^{\infty} |X(f)|^{2} df
+   \int_{ - \infty}^{\infty} |x(t)|^{2} dt= \int_{ - \infty}^{\infty} |X(f)|^{2} df.
    ```  
    
-However, when implement this as follow, we cannot prove the Parseval Equality.  
+However, when implementing Parseval Equation as follow, we cannot prove the Parseval Equation.  
 Please think and guess what's wrong inside the code before opening the ParsevalEquationSimulation.m file,  
     
    
