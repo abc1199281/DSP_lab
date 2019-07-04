@@ -12,7 +12,7 @@
 
 A little more proper (but not perfect) SNR formula is shown as below  
   ```math
-    SNR = 6.02B+10.8 - 20 log_1_0(\frac{X_{m}}{\sigma_{x}})(dB).
+    SNR = 6.02B+10.8 - 20 log_{10}(\frac{X_{m}}{\sigma_{x}})(dB).
    ```
 
 **Please Note**: It is very **worthy** to  **implement a quantizer** by your own. It would be fun and there is a little know-how inside it.   Once you implement a wrong quantizer, you will never get the correct simulation graph as shown below.   
