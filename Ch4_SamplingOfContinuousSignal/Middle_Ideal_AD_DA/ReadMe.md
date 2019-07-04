@@ -5,9 +5,9 @@
    
    In some cases, we want to obtain the signals of high differential orders. Intuitively, we just take difference sequence as features. The result is highly distorted. In fact, interpolation do help very much in this scenarios.
    
-   To lessen the distorted noise, simulated DAC is a very good choice of Interpolation rather than conventionally spline, linear. Because this method has its very useful physical meaning and follow the rules of Nyquist Theorem (Important). Detail introduction and explanation is reported in HigherOrdreDifference_ADC_DAC.pdf. Please take a look at it.  
+   To lessen the noise, simulated DAC is a very good choice of Interpolation rather than conventionally spline, linear. Because this method has its very useful physical meaning and follow the rules of Nyquist Theorem (Important). Detail introduction and explanation is reported in HigherOrdreDifference_ADC_DAC.pdf. Please take a look at it.  
      
-   This article illustrate that we can obtain band limited features  in 30 fps almost the same as 1500 fps, as long as the proper design of interpolation. The result obtain before and after is shown on the Fig below (left and right). 
+   This article illustrate that we can obtain band limited features  in 30 fps, which is almost the same as 1500 fps, as long as the proper design of interpolation has been made. The result obtain before and after is shown on the Fig below (corresponding to left and right). 
    
    ![Fig.1|medium](./1.PNG )
     
