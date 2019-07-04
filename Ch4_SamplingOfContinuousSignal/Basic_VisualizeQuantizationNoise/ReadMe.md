@@ -10,9 +10,9 @@
   
 Symbol        | Sampling  | Quantization |       Formal Name | 
 --------------|:---------:|-------------:| -----------------:|
-x_a(t)        | No        |  No          | Continuous Signal |  
-x[n]          | Yes       |  No          | Diecrete Time Signal |  
-\hat x[n]     | Yes       |  Yes         | Digital Signal |  
+'''math x_a(t)    '''     | No        |  No          | Continuous Signal |  
+'''math x[n]      '''     | Yes       |  No          | Diecrete Time Signal |  
+'''math \hat x[n] '''   | Yes       |  Yes         | Digital Signal |  
 
 ###  Sample 4.10: Visualize Quantization Noise, Fig. 4.57
 *Watch out:* ADC with small Bits leads to severe non linear and not fairly distortion, especially in peaks and troughs.  
