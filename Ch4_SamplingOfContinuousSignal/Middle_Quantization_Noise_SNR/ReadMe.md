@@ -14,7 +14,9 @@ A little more proper (but not perfect) SNR formula is shown as below
   ```math
     SNR = 6.02B+10.8 - 20 log_{10}(\frac{X_{m}}{\sigma_{x}})(dB).
    ```
-
+   
+where sigma x is the power of signal.  
+  
 **Please Note**: It is very **worthy** to  **implement a quantizer** by your own. It would be fun and there is a little know-how inside it.   Once you implement a wrong quantizer, you will never get the correct simulation graph as shown below.   
 In my simulation (../lib/Quantizing.m), the curves are very close to theoretical curves in the linear region.   
 The difference between theoretical curves and simulation curves under 1 X_m/std(x) ratio is due to saturation. 
