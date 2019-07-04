@@ -21,6 +21,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch2:Test Signals Generation (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_TestSignalsGeneration)
 - [Ch2:Phase Of Basic Signals (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_MagPhaseOfSignal)  
 - [Ch2:Parseval Equation (19/07/04)](/Ch2_DiscreteTimeSignalAndSystem/Basic_ParsevalEquation)  
+- [Ch4:Basic ADC: Visualize Quantization Noise (19/07/04)](/Ch4_SamplingOfContinuousSignal/Basic_VisualizeQuantizationNoise)  
 - [Ch5:Filter a signal with IIR Filter (19/05/05)](/Ch5_TransformAnalysisOfLTISystem/Basic_UseFilter)  
 - [Ch5:Basic Filter Visualization (19/05/10)](/Ch5_TransformAnalysisOfLTISystem/Basic_FilterVisualization)
 - [Ch10:What is the definition of asymptotically biased. (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
