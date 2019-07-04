@@ -6,7 +6,9 @@
 ![Fig.4|medium](./4.PNG )
 
 **Please Note**: *discrete-time signal is* **not** *digital signal*.
-
+  
+  a^2+b^2=c^2$  
+  
 Symbol        | Sampling  | Quantization |       Formal Name | 
 --------------|:---------:|-------------:| -----------------:|
 $ x_a(t) $    | No        |  No          | Continuous Signal |  
