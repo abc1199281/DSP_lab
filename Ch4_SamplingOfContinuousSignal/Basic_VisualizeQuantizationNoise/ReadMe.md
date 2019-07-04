@@ -7,13 +7,12 @@
 
 **Please Note**: *discrete-time signal is* **not** *digital signal*.
   
-  $a^2+b^2=c^2$  
   
 Symbol        | Sampling  | Quantization |       Formal Name | 
 --------------|:---------:|-------------:| -----------------:|
-$ x_a(t) $    | No        |  No          | Continuous Signal |  
-$ x[n] $      | Yes       |  No          | Diecrete Time Signal |  
-$ \hat x[n] $ | Yes       |  Yes         | Digital Signal |  
+x_a(t)        | No        |  No          | Continuous Signal |  
+x[n]          | Yes       |  No          | Diecrete Time Signal |  
+\hat x[n]     | Yes       |  Yes         | Digital Signal |  
 
 ###  Sample 4.10: Visualize Quantization Noise, Fig. 4.57
 *Watch out:* ADC with small Bits leads to severe non linear and not fairly distortion, especially in peaks and troughs.  
