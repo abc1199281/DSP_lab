@@ -3,9 +3,9 @@
      
    There are tow important part for an ideal and basic ADC. As depicted in Fig 1, ADC consists of a Sampler and a Quantizer. The effect of sampling has been well discussed in previous section (4.1-1.3). Here we focus on the effect of quantization. This article is just the implementation of Sample 4.11 & Sample 4.12 of the bible.
     
-![Fig.4](./4.PNG)
+![Fig.4](./4.PNG=100x)
 
-**Please Note**: *discrete-time signal is **not** digital signal*.
+**Please Note**: *discrete-time signal is* **not** *digital signal*.
 
 Symbol        | Sampling  | Quantization |       Formal Name | 
 --------------|:---------:|-------------:| -----------------:|
