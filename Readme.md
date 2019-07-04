@@ -34,6 +34,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch10:Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation(19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Midle_InConsistVar) 
 
 ### Advanced  
+- [Ch4:What is the really meaning of Interpolation? ADC/DAC (19/07/05)](/Ch4_SamplingOfContinuousSignal/Middle_Ideal_AD_DA)  
 - [Ch5:What's the meaning for group delay of a signal? Insight to group delay (19/06/16)](/Ch5_TransformAnalysisOfLTISystem/Advanced_EffectOfGroupDelayOnSignals)  
 - [Ch10:Better Resolution Using Transformation of the Random Variables (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Advanced_BetterResolutionUsingTransformationOfRandomVariables)
 - [Ch11:Parametric Signal Modeling: Spectrum Analysis (19/04/28)](/Ch11_ParametricSignalModeling/Advanced_SpectrumAnalysis)

@@ -66,7 +66,7 @@ figure;
 plot(t,x_a);
 hold on;
 plot(t,x_r);
-title('0 order: Original signal v.s. up sampled signal');
+title('0 order: Original signal v.s. reconstructed signal');
 legend('x_a','x_r');
 
 %% Display: Second Order (application: Features in time domain of higher order diff)
@@ -83,6 +83,6 @@ figure;
 plot(t(1:end-order),diff(x_a,order));
 hold on;
 plot(t(1:end-order),diff(x_r,order));
-title([num2str(order) ' order: Original signal v.s. up sampled signal']);
+title([num2str(order) ' order: Original signal v.s. reconstructed signal']);
 legend('x_a','x_r');
 ylim([-1e-4,1e-4]);
