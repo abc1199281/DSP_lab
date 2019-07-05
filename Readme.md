@@ -20,17 +20,21 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 - [Ch2:Time Invariance System (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_TimeInvariance)
 - [Ch2:Test Signals Generation (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_TestSignalsGeneration)
 - [Ch2:Phase Of Basic Signals (19/05/05)](/Ch2_DiscreteTimeSignalAndSystem/Basic_MagPhaseOfSignal)  
+- [Ch2:Parseval Equation (19/07/04)](/Ch2_DiscreteTimeSignalAndSystem/Basic_ParsevalEquation)  
+- [Ch4:Basic ADC: Visualize Quantization Noise (19/07/04)](/Ch4_SamplingOfContinuousSignal/Basic_VisualizeQuantizationNoise)  
 - [Ch5:Filter a signal with IIR Filter (19/05/05)](/Ch5_TransformAnalysisOfLTISystem/Basic_UseFilter)  
 - [Ch5:Basic Filter Visualization (19/05/10)](/Ch5_TransformAnalysisOfLTISystem/Basic_FilterVisualization)
 - [Ch10:What is the definition of asymptotically biased. (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Basic_AsymptoticallyUnbiased)
 
 ### Middle
+- [Ch4:A little more about Quantization Noise (1) (19/07/05)](/Ch4_SamplingOfContinuousSignal/Middle_Quantization_Noise_SNR)  
 - [Ch5:What's the unit of Group Delay? Effect of Group Delay and Attenuation (19/05/31)](/Ch5_TransformAnalysisOfLTISystem/Middle_EffectOfGroupDelayAndAttenuation)  
 - [Ch6:What's the code of **"Filter"** in Matlab? Direction Form Filters (19/05/26)](/Ch6_StructureForDiscreteTimeSystems/Middle_DirectFormFilters)  
 - [Ch7:Why is it a bad idea to filter by zeroing out FFT bins? Window Effect(19/04/23)](/Ch7_FilterDesignTechniques/Middle_WindowEffect) 
 - [Ch10:Why is the DFT Square not a good PSD Estimation? Inconsistent Estimation(19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Midle_InConsistVar) 
 
 ### Advanced  
+- [Ch4:What is the really meaning of Interpolation? ADC/DAC (19/07/05)](/Ch4_SamplingOfContinuousSignal/Middle_Ideal_AD_DA)  
 - [Ch5:What's the meaning for group delay of a signal? Insight to group delay (19/06/16)](/Ch5_TransformAnalysisOfLTISystem/Advanced_EffectOfGroupDelayOnSignals)  
 - [Ch10:Better Resolution Using Transformation of the Random Variables (19/05/16)](/Ch10_FourierAnalysisOfSignalsUsingTheDFT/10_5_Periodogram/Advanced_BetterResolutionUsingTransformationOfRandomVariables)
 - [Ch11:Parametric Signal Modeling: Spectrum Analysis (19/04/28)](/Ch11_ParametricSignalModeling/Advanced_SpectrumAnalysis)
