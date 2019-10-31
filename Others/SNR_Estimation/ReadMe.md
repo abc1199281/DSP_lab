@@ -8,13 +8,14 @@ A basic test is given a received signal x[n] as below,
 x(n) = A cos(2 \pi f_{0} n) + w(n), w \sim N(0,\sigma).
 ```  
 
-Then, the estimated SNR should be
+Then, the estimated SNR should be  
 
 ```math
 SNR = \frac{A^2}{\sigma^2}.
 ```    
 
-Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result. please think about the reason why?
+Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result.  
+**The SNR estimater always underestimate the true SNR.** Please think about the reason before see the answer?  
 
      %% PNR Estimation Basic Version.
 	function pnr = estimatePNR(spectrum)
@@ -31,8 +32,7 @@ Try the SNR estimator shown below. Although the estimator seems to be reasonable
 		pnr = 10*log10(peak_power/noise_power);
 	end  
    
-
-**Result**: The estimated SNR is largely underestimate the true SNR.
+**Result:**
 
 ![Fig.1](./1.PNG).
 
