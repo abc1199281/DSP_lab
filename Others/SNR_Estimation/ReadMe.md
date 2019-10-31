@@ -18,17 +18,17 @@ Try the SNR estimator shown below. Although the estimator seems to be reasonable
 **The SNR estimater always underestimate the true SNR.** Please think about the reason before see the answer?  
 
      %% PNR Estimation Basic Version.
-	function pnr = estimatePNR(spectrum)
-		[mag,index]=max(spectrum);
+	function pnr = estimatePNR(PowerSpectrumDensity)
+		[mag,index]=max(PowerSpectrumDensity);
 		
-		peak_power = spectrum(index);
+		peak_power = PowerSpectrumDensity(index);
 		if index>=2 % add the bin before the max.
-			peak_power = peak_power+spectrum(index-1);
+			peak_power = peak_power+PowerSpectrumDensity(index-1);
 		end
-		if index<length(spectrum) % add the bin after the max.
-			peak_power = peak_power+spectrum(index+1);
+		if index<length(PowerSpectrumDensity) % add the bin after the max.
+			peak_power = peak_power+PowerSpectrumDensity(index+1);
 		end
-		noise_power = sum(spectrum)-peak_power;
+		noise_power = sum(PowerSpectrumDensity)-peak_power;
 		pnr = 10*log10(peak_power/noise_power);
 	end  
    
