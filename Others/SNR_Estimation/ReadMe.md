@@ -8,12 +8,12 @@ A basic test is given a received signal x[n] as below,
 x(n) = A cos(2 \pi f_{0} n) + w(n), w \sim N(0,\sigma).
 ```  
 
-Then, the estimated SNR should be ```math \frac{A^2}{\sigma^2}``` . Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result. please think about the reason why?
+Then, the estimated SNR should be $$\frac{A^2}{\sigma^2}$$ . Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result. please think about the reason why?
 
      %% PNR Estimation Basic Version.
 	function pnr = estimatePNR(spectrum)
 		[mag,index]=max(spectrum);
-    
+		
 		peak_power = spectrum(index);
 		if index>=2 % add the bin before the max.
 			peak_power = peak_power+spectrum(index-1);
