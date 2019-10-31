@@ -1,8 +1,8 @@
 # [Middle] Ch10: Do you realy understand the SNR?
 **Main Scope:Chapter 10**   
      
-   Signal to Noise ratio (SNR) might be the most simple and most common signal quality index (SQI). Then, do we estimate the SNR correctly?
-A basic test is given a received signal x[n] as below,
+   Signal to noise ratio (SNR) might be the most simple and most common signal quality index (SQI). Then, do we estimate the SNR correctly?
+A basic test is by a sinusoid signal with white gaussian noise as below,
    
 ```math
 x(n) = A cos(2 \pi f_{0} n) + w(n), w \sim N(0,\sigma).
@@ -15,7 +15,7 @@ SNR = \frac{A^2}{2 \sigma^2}.
 ```    
 
 Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result.  
-**The SNR estimater always underestimate the true SNR.** Please think about the reason before see the answer?  
+**The SNR estimater always underestimate the true SNR.** Please think about the reason before reading the answer?  
 
      %% PNR Estimation Basic Version.
 	function pnr = estimatePNR(PowerSpectrumDensity)
