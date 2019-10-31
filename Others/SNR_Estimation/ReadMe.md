@@ -11,7 +11,7 @@ x(n) = A cos(2 \pi f_{0} n) + w(n), w \sim N(0,\sigma).
 Then, the estimated SNR should be  
 
 ```math
-SNR = \frac{A^2}{\sigma^2}.
+SNR = \frac{A^2}{2 \sigma^2}.
 ```    
 
 Try the SNR estimator shown below. Although the estimator seems to be reasonable, you will get surprising result.  
