@@ -1,25 +1,23 @@
-clear all;
-close all;
-
+function [snr_no_delay,snr_egc,snr_mvdr,snr_mc_mvdr,snr_opt]=simulate_beamforming_rolling(fps,td,f0,L,N,signal_var,noise_var)
 %% Parameters
-H = 480;
-fps = 30;
+% H = 480;
+% fps = 30;
 % td = 1/fps/H;
-td = 1/fps;
+% td = 1/fps/512;
 
 T = 1/fps;
-f0 = 1;
+% f0 = 1;
 w0 = 2*pi*f0;
 
-L=512; % temporal signal samples 
+% L=512; % temporal signal samples 
 n = 0:T:(L-1)*T;
 
-signal_var = 1;
+% signal_var = 1;
 amp = sqrt(signal_var*2);
 
-noise_var = 20;
+% noise_var = 20;
 
-N =80; % spatio samples
+% N =80; % spatio samples
 
 %% Matrix Form of Received Signal
 
@@ -45,17 +43,17 @@ y_no_delay = ones(N,2)*s+w;
 
 R_s = cov(s');
 
-verify_R_s =abs( signal_var - trace(R_s))<0.0001;  % power of signal is as expected.
+% verify_R_s =abs( signal_var - trace(R_s))<0.0001;  % power of signal is as expected.
 
 R_a = cov(a);
 R_y = cov(y');
 R_w = cov(w'); % diag{noise_var,..., noise_var}
 
-verify_R_w = abs(noise_var*N-trace(R_w))<0.1; % power of noise is as expected.
+% verify_R_w = abs(noise_var*N-trace(R_w))<0.1; % power of noise is as expected.
 
 R_y_thy = a*R_s*a'+R_w;
 
-verify_R_y = mean(mean(abs(R_y_thy - R_y)))<0.1;
+% verify_R_y = mean(mean(abs(R_y_thy - R_y)))<0.1;
 
 
 
@@ -65,7 +63,7 @@ b_egc = ones(1,N)/N;
 y_egc = b_egc*y;
 snr_egc = snr(real(y_egc));
 
-verify_b_ecg_norm = abs(1-b_egc*b_egc')<0.01;
+% verify_b_ecg_norm = abs(1-b_egc*b_egc')<0.01;
 
 %% Beamforming (MVDR) (only positive w0)
 
@@ -96,22 +94,9 @@ b_opt = R_w^(-1/2)*V(:,1);
 y_opt = b_opt'*y;
 snr_opt = snr(real(y_opt));
 
-%% no delay
+%% wo delay
 
 snr_no_delay = snr(real(b_egc*y_no_delay));
 
 %% figure temporal
-
-figure;
-title('temporal y');
-hold on;
-plot(n,y(1,:));
-plot(n,y_egc-1.5);
-plot(n,y_mvdr-3);
-plot(n,y_mc_mvdr-4.5);
-plot(n,y_opt-6);
-legend('original 1 channel','egc','mvdr','mc_mvdr','opt');
-
-
-
-
+end
