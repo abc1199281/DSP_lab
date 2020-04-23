@@ -17,3 +17,9 @@ hp.LineWidth=2;
 xlabel('Normalized frequency (\times \pi rad/sample)');
 ylabel('One-sided PSD (dB/rad/sample)');
 legend('PSD estimate of x', 'PSD of model output (auto)', 'PSD of model output (cov)');
+
+[v f_max_index] = max(Hc);
+
+freq = wc(f_max_index)/pi;
+
+disp(freq);
