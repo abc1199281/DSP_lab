@@ -11,7 +11,7 @@ n = 0:T:(L-1)*T;
 
 
 snr_range = [-20:45]; % SNR is in dB scale
-N =80; % spatio samples
+N =480; % spatio samples
 
 snr_no_delay = zeros(1,length(snr_range));
 snr_egc = zeros(1,length(snr_range));
