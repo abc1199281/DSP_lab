@@ -7,7 +7,7 @@ T = 1/30; % sec
 fo = 1; % Hz
 M = Oversampling*N;
 rng('default');
-Nrun = 1000; % Montecarlo runs
+Nrun = 100; % Montecarlo runs
 snr_step =1;
 snr_range = [-20:snr_step:30]; % SNR is in dB scale
 n = [1:N];
@@ -27,7 +27,8 @@ for isnr = 1:length(snr_range)
         % Freq. estimation: DFT on M samples
         S = (abs(fft(x,M)).^2)/N; % DFT on M > N samples (zero-padding)
         
-        avg_estimated_pnr(isnr) = avg_estimated_pnr(isnr)+estimatePNR(S(2:M/2)); % Both Signal and Noise limited.
+%         avg_estimated_pnr(isnr) = avg_estimated_pnr(isnr)+estimatePNR(S(2:M/2)); % Both Signal and Noise limited.
+        avg_estimated_pnr(isnr) = avg_estimated_pnr(isnr)+BasicSNR_estimate(x,1/T); %  Try the simple soure estimater.
         avg_matlab_snr(isnr) = avg_matlab_snr(isnr)+snr(x);
     end
 end
