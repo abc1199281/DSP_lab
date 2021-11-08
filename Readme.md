@@ -46,7 +46,7 @@ The concepts beyond conventional DSP classes are included here. Take up these ch
 
 ## Recommendation Welcome
 This is my side project to verify some DSP Theorem. Recommendation to this repo is very wellcome!  
-If you have any idea about this repo, just send your precious recommendation to me (powei@cssp.cn.nctu.edu.tw). Thanks a lot.
+If you have any idea about this repo, just send your precious recommendation to me (poweihuang.ece06g@nctu.edu.tw). Thanks a lot.
 
 ## Recommended Book List and Reference
 
