@@ -18,7 +18,7 @@ F_bpf = IdealBandpassFilter(F, fps, LPF, HPF);
 imp_rep =[real(ifft(F_bpf))'];
 
 % Zero padding to observe. Uncomment it and think.
-% imp_rep =[zeros(1,512) real(ifft(F_bpf))' zeros(1,512)];
+imp_rep =[zeros(1,512) real(ifft(F_bpf))' zeros(1,512)];
 
 title = "Ideal BPF with out windowing";
 filter_analysis_imp(imp_rep,fps,title);
