@@ -6,7 +6,8 @@ function [r]=BasicSNR_estimate(signal,f_hz)
     x = x - mean(x);
     N = length(x);
     % use Kaiser window to reduce effects of leakage
-    win = kaiser(N,38);
+%    win = kaiser(N,38);
+    win = hanning(N);
     %rbw = enbw(win,f_hz);%³o¬OÔ£¤p
 %     [Pxx1, F1] = periodogram(x,win,N,f_hz,'psd');
     [Pxx, F] = MyWelchPSD(x,f_hz,N,win);
@@ -32,7 +33,7 @@ function [r]=BasicSNR_estimate(signal,f_hz)
     Pxx = min([Pxx origPxx],[],2);
 
     % compute the noise distortion.
-    totalNoise = myband_power(Pxx, F);  
+    totalNoise = sum(Pxx);  
     
 %     main_peak_hz = iFund*(f_hz/N);
     r = 10*log10(Pfund / totalNoise);
@@ -63,14 +64,7 @@ function  [power, idxTone, idxLeft, idxRight]  = MyGetTone(Pxx,F)
     idxLeft = idxLeft+1;
     idxRight = idxRight-1;
     
-    power = myband_power(Pxx(idxLeft:idxRight),F(idxLeft:idxRight));
-end
-
-function pwr=myband_power(P,F)
-    w = diff(F);
-    scale = sum(w)/length(w);
-    pwr = sum(P)*scale;
-    
+    power = sum(Pxx(idxLeft:idxRight));
 end
 
 function [PSD,freq]=MyWelchPSD(signal, fs,N,window_func)
