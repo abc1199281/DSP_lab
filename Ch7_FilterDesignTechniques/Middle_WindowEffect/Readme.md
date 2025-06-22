@@ -24,3 +24,15 @@ So, with the help of denser spectrum in Fig.2, we can see through the mask of id
 [1] Alan V. Oppenheim and Ronald W. Schafer. 2009. Discrete-Time Signal Processing (3rd ed.). Prentice Hall Press, Upper Saddle River, NJ, USA.
 
 Date: 2019/04/23
+
+## Running the Python examples
+
+This folder now also contains Python scripts that replicate the original MATLAB
+experiments using **NumPy**, **SciPy**, and **Matplotlib**. Run a script with
+Python 3:
+
+```bash
+python3 test_butterworth.py
+```
+
+Install dependencies from the repository root `requirements.txt` beforehand.

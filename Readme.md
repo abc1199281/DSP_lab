@@ -57,3 +57,8 @@ As others have said, the book [1] is called the DSP bible. Unless stated otherwi
 These book provide matlab code foe basic concepts.
 3. [Understanding Digital Signal Processing with MATLAB and Solutions](https://www.mathworks.com/academia/books/understanding-digital-signal-processing-with-matlab-and-solutions-poularikas.html)  
 This book provide matlab code for advanced concepts.
+
+## Python examples
+
+Some of the MATLAB demonstrations have been ported to Python. Install the
+requirements from `requirements.txt` and run the scripts with Python 3.
