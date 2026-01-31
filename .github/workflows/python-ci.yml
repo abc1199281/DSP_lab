@@ -3,10 +3,10 @@ name: Python CI
 on:
   push:
     branches:
-      - dev_python # 當推送到 dev_python 分支時觸發
+      - dev_python # Trigger on push to dev_python branch
   pull_request:
     branches:
-      - dev_python # 當向 dev_python 提交 Pull Request 時觸發
+      - dev_python # Trigger on Pull Request to dev_python branch
 
 jobs:
   build:
@@ -20,19 +20,19 @@ jobs:
     - name: Set up Python 3.x
       uses: actions/setup-python@v5
       with:
-        python-version: '3.x' # 使用最新版本的 Python 3
+        python-version: '3.x' # Use the latest Python 3 version
 
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install numpy # 安裝 numpy
+        pip install numpy # Install numpy
 
     - name: Run tests
       run: |
         python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/quantizing.py
         python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/estimate_snr.py
         python my_repo/DSP_lab/Others/SNR_Estimation/basic_snr_estimate.py
-        # 未來可以添加更多測試檔案
+        # Add more test files here in the future
 
     # 暫時不加入 Linting，因為可能需要額外安裝工具
     # - name: Lint with flake8
