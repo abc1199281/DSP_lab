@@ -1,0 +1,41 @@
+name: Python CI
+
+on:
+  push:
+    branches:
+      - dev_python # 當推送到 dev_python 分支時觸發
+  pull_request:
+    branches:
+      - dev_python # 當向 dev_python 提交 Pull Request 時觸發
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        repository: abc1199281/DSP_lab # 指定你的 repo
+
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x' # 使用最新版本的 Python 3
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install numpy # 安裝 numpy
+
+    - name: Run tests
+      run: |
+        python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/quantizing.py
+        python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/estimate_snr.py
+        # 未來可以添加更多測試檔案
+
+    # 暫時不加入 Linting，因為可能需要額外安裝工具
+    # - name: Lint with flake8
+    #   run: |
+    #     pip install flake8
+    #     flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    #     flake8 . --count --exit-zero --max-complexity=10 --max-line-length=120 --statistics
