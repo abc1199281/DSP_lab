@@ -29,9 +29,9 @@ jobs:
 
     - name: Run tests
       run: |
-        python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/quantizing.py
-        python my_repo/DSP_lab/Ch4_SamplingOfContinuousSignal/lib/estimate_snr.py
-        python my_repo/DSP_lab/Others/SNR_Estimation/basic_snr_estimate.py
+        python Ch4_SamplingOfContinuousSignal/lib/quantizing.py
+        python Ch4_SamplingOfContinuousSignal/lib/estimate_snr.py
+        python Others/SNR_Estimation/basic_snr_estimate.py
         # Add more test files here in the future
 
     # 暫時不加入 Linting，因為可能需要額外安裝工具
