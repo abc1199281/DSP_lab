@@ -27,6 +27,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install numpy # Install numpy
         pip install scipy # Install scipy
+        pip install matplotlib # Install matplotlib for plotting
 
     - name: Set up PYTHONPATH
       run: |
@@ -40,10 +41,3 @@ jobs:
         python Others/SNR_Estimation/estimate_pnr.py
         python Others/CRLB/FrequencyEstimation/crlb_freq_estimation.py
         # Add more test files here in the future
-
-        # Temporarily not including linting, as it might require additional tool installation
-    # - name: Lint with flake8
-    #   run: |
-    #     pip install flake8
-    #     flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-    #     flake8 . --count --exit-zero --max-complexity=10 --max-line-length=120 --statistics
