@@ -42,4 +42,5 @@ jobs:
         python Others/CRLB/FrequencyEstimation/crlb_freq_estimation.py
         python Others/LMS/lib/lms1.py
         python Others/LMS/lib/nlms.py
+        python Others/LMS/lib/lms_leaky_lms.py
         # Add more test files here in the future
