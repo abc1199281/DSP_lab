@@ -1,5 +1,6 @@
 import numpy as np
 
+
 def estimate_pnr(power_spectrum_density):
     """
     Estimates the Peak-to-Noise Ratio (PNR) from a Power Spectral Density (PSD).
@@ -14,7 +15,7 @@ def estimate_pnr(power_spectrum_density):
     psd = np.atleast_1d(power_spectrum_density)
 
     if np.sum(psd) == 0:
-        return -np.inf # If total power is zero, PNR is negative infinity
+        return -np.inf  # If total power is zero, PNR is negative infinity
 
     # Find the index of the maximum peak
     index = np.argmax(psd)
@@ -55,7 +56,9 @@ if __name__ == "__main__":
     # PNR = 10 * log10(5.5 / 0.25) = 10 * log10(22) approx 13.42 dB
     expected_pnr1 = 10 * np.log10(5.5 / 0.25)
     estimated_pnr1 = estimate_pnr(psd_test1)
-    print(f"\nTest Case 1: Estimated PNR: {estimated_pnr1:.2f} dB (Expected ~{expected_pnr1:.2f} dB)")
+    print(
+        f"\nTest Case 1: Estimated PNR: {estimated_pnr1:.2f} dB (Expected ~{expected_pnr1:.2f} dB)"
+    )
     assert np.isclose(estimated_pnr1, expected_pnr1), "Test Case 1 Failed!"
     print("Test Case 1 Passed!")
 
