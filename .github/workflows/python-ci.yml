@@ -3,10 +3,10 @@ name: Python CI
 on:
   push:
     branches:
-      - dev_python # Trigger on push to dev_python branch
+      - dev_python
   pull_request:
     branches:
-      - dev_python # Trigger on Pull Request to dev_python branch
+      - dev_python
 
 jobs:
   build:
@@ -15,12 +15,12 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: abc1199281/DSP_lab # Your repository
+        repository: abc1199281/DSP_lab
 
     - name: Set up Python 3.x
       uses: actions/setup-python@v5
       with:
-        python-version: '3.x' # Use the latest Python 3 version
+        python-version: '3.x'
 
     - name: Install dependencies
       run: |
@@ -41,4 +41,5 @@ jobs:
         python Others/SNR_Estimation/estimate_pnr.py
         python Others/CRLB/FrequencyEstimation/crlb_freq_estimation.py
         python Others/LMS/lib/lms1.py
+        python Others/LMS/lib/nlms.py
         # Add more test files here in the future
