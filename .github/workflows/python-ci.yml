@@ -28,6 +28,10 @@ jobs:
         pip install numpy # Install numpy
         pip install scipy # Install scipy
 
+    - name: Set up PYTHONPATH
+      run: |
+        echo "PYTHONPATH=$GITHUB_WORKSPACE/DSP_lab" >> $GITHUB_ENV
+
     - name: Run tests
       run: |
         python Ch4_SamplingOfContinuousSignal/lib/quantizing.py
