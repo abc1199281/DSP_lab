@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
       with:
-        repository: abc1199281/DSP_lab # 指定你的 repo
+        repository: abc1199281/DSP_lab # Your repository
 
     - name: Set up Python 3.x
       uses: actions/setup-python@v5
@@ -35,7 +35,7 @@ jobs:
         python Others/SNR_Estimation/basic_snr_estimate.py
         # Add more test files here in the future
 
-    # 暫時不加入 Linting，因為可能需要額外安裝工具
+        # Temporarily not including linting, as it might require additional tool installation
     # - name: Lint with flake8
     #   run: |
     #     pip install flake8
