@@ -26,6 +26,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install numpy # Install numpy
+        pip install scipy # Install scipy
 
     - name: Run tests
       run: |
