@@ -25,9 +25,9 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install numpy # Install numpy
-        pip install scipy # Install scipy
-        pip install matplotlib # Install matplotlib for plotting
+        pip install numpy
+        pip install scipy
+        pip install matplotlib
 
     - name: Set up PYTHONPATH
       run: |
@@ -40,4 +40,5 @@ jobs:
         python Others/SNR_Estimation/basic_snr_estimate.py
         python Others/SNR_Estimation/estimate_pnr.py
         python Others/CRLB/FrequencyEstimation/crlb_freq_estimation.py
+        python Others/LMS/lib/lms1.py
         # Add more test files here in the future
