@@ -38,6 +38,7 @@ jobs:
         python Ch4_SamplingOfContinuousSignal/lib/estimate_snr.py
         python Others/SNR_Estimation/basic_snr_estimate.py
         python Others/SNR_Estimation/estimate_pnr.py
+        python Others/CRLB/FrequencyEstimation/crlb_freq_estimation.py
         # Add more test files here in the future
 
         # Temporarily not including linting, as it might require additional tool installation
