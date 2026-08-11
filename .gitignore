@@ -1,0 +1,7 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# OS-specific files
+.DS_Store
+Thumbs.db
